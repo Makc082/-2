@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 7px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="1" colspan="10" style="background-color: blue;"></td>
+            </tr>
+            <tr>
+                <td rowspan="4" colspan="3" style="background-color: white;"></td>
+                <td rowspan="2" colspan="3" style="background-color: green;"></td>   
+                <td rowspan="1" colspan="6" style="background-color: red;"></td>
+            </tr>    
+            <tr>       
+                <td rowspan="1" colspan="6" style="background-color: orange;"></td>
+            </tr>    
+            <tr>    
+                <td rowspan="1" colspan="3" style="background-color: pink;"></td>  
+                <td rowspan="2" colspan="3" style="background-color: yellow;" ></td>
+                <td rowspan="1" colspan="3" style="background-color: fuchsia;"></td>
+            </tr>
+            <tr>
+                <td rowspan="1" colspan="3" style="background-color: gray;"></td>
+                <td rowspan="1" colspan="3" style="background-color: purple;"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
